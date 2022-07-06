@@ -1,0 +1,28 @@
+.btn {
+    font: inherit;
+    cursor: pointer;
+    padding: .3em 1em;
+    border: 1px solid #444;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  
+.btn:hover,
+.btn:active {
+    background-color: #1B1725;
+    color: #fff;
+    border-color: #888;
+  }
+  
+.btn.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+.btn.alternative:hover,
+.btn.alternative:active {
+    background-color: #ddb3f8;
+  }
